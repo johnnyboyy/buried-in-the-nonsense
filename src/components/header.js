@@ -5,8 +5,13 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#223564`,
+			marginBottom: `1.45rem`,
+			position: "fixed",
+			top: "0",
+			left: "0",
+			zIndex: "1000",
+			width: "100%"
     }}
   >
     <div
